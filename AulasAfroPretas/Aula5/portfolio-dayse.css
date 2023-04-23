@@ -1,0 +1,21 @@
+
+body{
+    text-align: center;
+    background-image: linear-gradient(to right, rgb(213, 24, 137), rgb(108, 18, 172), #120a8b);
+    font-family: <family-montserrat >'Lucida Sans', 'Lucida Sans Regular',
+}
+
+h1{
+    color: rgb(234, 223, 231);
+}
+
+a{    text-decoration: none;
+    background-color:rgb(130, 76, 130);
+}
+h2 {text-decoration: none;
+    background-color:rgb(130, 76, 130);
+}
+
+p{
+    text ;
+}
