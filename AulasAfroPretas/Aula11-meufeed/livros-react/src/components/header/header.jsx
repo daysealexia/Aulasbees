@@ -2,9 +2,11 @@ import React from "react";
 import './header.css'
 
 
-function Header (BookFlix) {
+function Header () {
     return(
-<div> BookFlix</div>
+        <div>
+            <h4>Daayse Alexia</h4>
+        </div>
     )
 }
 
