@@ -1,0 +1,6 @@
+.card{
+    transform: rotate(-30deg);
+}
+.card2{
+    transform: rotate(30deg);
+}
