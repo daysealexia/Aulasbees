@@ -1,0 +1,46 @@
+.light{
+    background-color: #fff;
+    color: #fff;
+}
+.dark{
+    background-color: #000;
+    color: #fff;
+}
+
+.classe{
+
+background-color: blue;
+}
+
+.buttontitulo{
+    font-size: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+    color: green;
+    background-color: pink;
+    border-radius: 30px;
+
+
+
+}
+
+.buttondark{
+    font-size: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color-interpolation: inherit;
+    font-style: italic;
+    color: green;
+    background-color: pink;
+    border-radius: 30px;
+
+}
+
+div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2000px;
+    height: 2000px;
+
+}
+
