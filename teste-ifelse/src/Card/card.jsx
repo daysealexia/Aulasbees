@@ -1,5 +1,5 @@
-import React, { useEffect, useState }  from "react";
-import "./Card.css"
+import React, { useEffect, useState } from "react";
+import "./card.css"
 
 function Card() {
     const [dependencia, setDependencia] = useState(false);
@@ -9,7 +9,7 @@ function Card() {
     // 0 ou 1
     // true ou false
 
-    useEffect(() =>{
+    useEffect(() => {
         if (dependencia)
             setClasse("card")
         else
@@ -17,11 +17,11 @@ function Card() {
 
     }, [dependencia])
 
-    return(
+    return (
         <div className={classe}>
             Oii
             <br />
-            <button onClick={()=>{setDependencia(true)}}>Girar</button>
+            <button onClick={() => { setDependencia(true) }}>Girar</button>
         </div>
     );
 }
