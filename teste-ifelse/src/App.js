@@ -1,5 +1,5 @@
 import './App.css';
-import Card from './Card';
+import Card from './teste-ifelse./src./Card';
 
 function App() {
   return (
